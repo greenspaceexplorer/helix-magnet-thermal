@@ -1,0 +1,11 @@
+[Aluminum]
+thermcond=200
+emissivity=0.06
+
+[Superinsulation]
+thermcond=-1
+emissivity=0.03
+
+[G10]
+thermcond=0.04
+emissivity=-1

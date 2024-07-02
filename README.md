@@ -1,1 +1,1 @@
-# HELIX Thermal Code
+# HELIX

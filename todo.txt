@@ -1,0 +1,8 @@
+-Block sun with silvered foam
+-Burst plate mechanism
+-Dewer transfer line design
+-Model thermal distribution of inner vessel
+-Thermal model for entire gondola
+-Thermal model for external dewer
+-Use plastic tabs?
+-main weapon redesign

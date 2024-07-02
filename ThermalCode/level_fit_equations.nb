@@ -1,0 +1,195 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      5256,        185]
+NotebookOptionsPosition[      4397,        149]
+NotebookOutlinePosition[      4739,        164]
+CellTagsIndexPosition[      4696,        161]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FortranForm", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "1.47163230560322*^-03"}], 
+     RowBox[{"x", "^", "2"}]}], "+", 
+    RowBox[{"1.95799472004520*^-01", "x"}], "+", "2.31166897578547*^-01"}], 
+   "]"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.6761355440839443`*^9, 3.6761356258758354`*^9}, {
+   3.6761359797336197`*^9, 3.6761360491233325`*^9}, 3.676136084865553*^9}],
+
+Cell["\<\
+0.231166897578547 + 0.19579947200452*x - 0.00147163230560322*x**2\
+\>", "Output",
+ CellChangeTimes->{3.676136086139292*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FortranForm", "[", 
+   RowBox[{"D", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", "1.47163230560322*^-03"}], 
+       RowBox[{"x", "^", "2"}]}], "+", 
+      RowBox[{"1.95799472004520*^-01", "x"}], "+", "2.31166897578547*^-01"}], 
+     ",", "x"}], "]"}], "]"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{3.6761360931030207`*^9}],
+
+Cell["0.19579947200452 - 0.00294326461120644*x", "Output",
+ CellChangeTimes->{3.6761360944989753`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FortranForm", "[", 
+   RowBox[{
+    RowBox[{"7.53834532810923*^-10", " ", 
+     RowBox[{"x", "^", "5"}]}], "-", 
+    RowBox[{"5.16376654974849*^-07", " ", 
+     RowBox[{"x", "^", "4"}]}], "+", 
+    RowBox[{"1.38923728362529*^-04", " ", 
+     RowBox[{"x", "^", "3"}]}], "-", 
+    RowBox[{"1.83301586082401*^-02", " ", 
+     RowBox[{"x", "^", "2"}]}], "+", 
+    RowBox[{"1.25361724755983*^+00", " ", "x"}], "-", 
+    "2.24033436605957*^+01"}], "]"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{
+  3.6761361015358133`*^9, {3.6761364189212475`*^9, 3.67613642108212*^9}}],
+
+Cell["\<\
+        -22.4033436605957 + 1.25361724755983*x - 
+     -  0.0183301586082401*x**2 + 0.000138923728362529*x**3 - 
+     -  5.16376654974849e-7*x**4 + 7.53834532810923e-10*x**5\
+\>", "Output",
+ CellChangeTimes->{3.676136408407694*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FortranForm", "[", 
+   RowBox[{"D", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"7.53834532810923*^-10", " ", 
+       RowBox[{"x", "^", "5"}]}], "-", 
+      RowBox[{"5.16376654974849*^-07", " ", 
+       RowBox[{"x", "^", "4"}]}], "+", 
+      RowBox[{"1.38923728362529*^-04", " ", 
+       RowBox[{"x", "^", "3"}]}], "-", 
+      RowBox[{"1.83301586082401*^-02", " ", 
+       RowBox[{"x", "^", "2"}]}], "+", 
+      RowBox[{"1.25361724755983*^+00", " ", "x"}], "-", 
+      "2.24033436605957*^+01"}], ",", "x"}], "]"}], "]"}], 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{3.676136109829641*^9}],
+
+Cell["\<\
+        1.25361724755983 - 0.0366603172164802*x + 
+     -  0.000416771185087587*x**2 - 2.065506619899396e-6*x**3 + 
+     -  3.769172664054615e-9*x**4\
+\>", "Output",
+ CellChangeTimes->{3.6761361113438425`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FortranForm", "[", 
+   RowBox[{
+    RowBox[{"1.63976643013219*^-03", 
+     RowBox[{"x", "^", "2"}]}], "-", 
+    RowBox[{"7.08174149227273*^-01", "x"}], "+", "1.04127497960411*^+02"}], 
+   "]"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{3.67613611666111*^9}],
+
+Cell["\<\
+104.127497960411 - 0.708174149227273*x + 0.00163976643013219*x**2\
+\>", "Output",
+ CellChangeTimes->{3.6761361176295767`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FortranForm", "[", 
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"1.63976643013219*^-03", 
+      RowBox[{"x", "^", "2"}]}], "-", 
+     RowBox[{"7.08174149227273*^-01", "x"}], "+", "1.04127497960411*^+02"}], 
+    ",", "x"}], "]"}], "]"}]], "Input"],
+
+Cell["-0.708174149227273 + 0.00327953286026438*x", "Output",
+ CellChangeTimes->{3.676136120519164*^9}]
+}, Open  ]]
+},
+WindowSize->{707, 600},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 431, 10, 72, "Input"],
+Cell[1013, 34, 133, 3, 45, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1183, 42, 395, 11, 92, "Input"],
+Cell[1581, 55, 102, 1, 45, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1720, 61, 612, 15, 92, "Input"],
+Cell[2335, 78, 241, 5, 79, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2613, 88, 639, 17, 112, "Input"],
+Cell[3255, 107, 219, 5, 79, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3511, 117, 305, 8, 72, "Input"],
+Cell[3819, 127, 135, 3, 45, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3991, 135, 285, 8, 72, "Input"],
+Cell[4279, 145, 102, 1, 45, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
